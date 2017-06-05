@@ -2,21 +2,24 @@
   "name": "photo-gallery",
   "version": "1.0.0",
   "description": "Photo Gallery",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p",
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "format": "prettier --write --single-quote --print-width=120 --parser=flow index.js webpack.config.js \"src/**/*.{js,jsx,css}\"",
-    "lint": "eslint -c ./.eslintrc.json src/**/*.{js,jsx} webpack.config.js",
+    "lint": "eslint --fix -c ./.eslintrc.json src/**/*.{js,jsx} webpack.config.js index.js",
     "size-css": "node -e \"process.stdout.write('CSS gzip size: ')\" && gzip-size public/assets/styles.css",
     "size-js": "node -e \"process.stdout.write('JS gzip size: ')\" && gzip-size public/assets/bundle.js",
+    "start": "cross-env NODE_ENV=server node index.js",
     "test": "jest",
     "test:update": "jest -u",
     "types": "flow",
     "validate": "run-s -s -l format lint types test size-css size-js"
   },
   "jest": {
-    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"},
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
+    },
     "snapshotSerializers": [
       "jest-serializer-html-string"
     ]
@@ -70,5 +73,6 @@
     "flickrapi": "^0.6.0",
     "preact": "^8.1.0",
     "preact-router": "^2.5.2"
-  }
+  },
+  "repository": "git@github.com:btholt/photo-gallery.git"
 }

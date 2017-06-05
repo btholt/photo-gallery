@@ -13,7 +13,7 @@ body {
   transition: filter 1s ease;
 
   &.is-loading {
-    filter: blur(15px) grayscale(1);
+    filter: blur(15px);
     transition: filter 1s ease;
   }
 }

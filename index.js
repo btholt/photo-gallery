@@ -7,6 +7,7 @@ const Flickr = require('flickrapi');
 const fs = require('fs');
 
 const config = JSON.parse(fs.readFileSync('./flickr_credentials.json'));
+const html = fs.readFileSync('./public/index.html');
 
 const port = 3000;
 const normalizeSearchPhoto = photo => ({
@@ -28,7 +29,10 @@ const app = express();
 app.use(compression());
 app.use(cors());
 
-app.use('/public', express.static('/public'));
+if (process.env.NODE_ENV !== 'development') {
+  app.get(/^\/\d*$/, (req, res) => res.type('html').end(html));
+  app.use('/', express.static('public'));
+}
 
 app.get('/flickr/photos/:term/:page', (req, res) => {
   Flickr.tokenOnly(config, (error, flickr) => {
