@@ -1,0 +1,19 @@
+@import '../../common_styles/reset.css';
+
+body {
+  background-color: white;
+  font-family: San Francisco, Helvetica Neue, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  transition: filter 1s ease;
+
+  &.is-loading {
+    filter: blur(15px) grayscale(1);
+    transition: filter 1s ease;
+  }
+}

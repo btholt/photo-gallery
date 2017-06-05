@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default 1`] = `
+<div class="header-container">
+  <header class="header-bar">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+</div>
+`;
+
+exports[`renders with all props 1`] = `
+<div class="header-container is-invisibile spacer">
+  <header class="header-bar header-bar-inverse">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+</div>
+`;
+
+exports[`renders with back link 1`] = `
+<div class="header-container">
+  <header class="header-bar">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+  <a class href="/">
+    <img class="back-icon" alt="go back" src="/assets/icons/x.jpg" />
+  </a>
+</div>
+`;
+
+exports[`renders with inverted color 1`] = `
+<div class="header-container">
+  <header class="header-bar header-bar-inverse">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+</div>
+`;
+
+exports[`renders with invisible class 1`] = `
+<div class="header-container is-invisibile">
+  <header class="header-bar">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+</div>
+`;
+
+exports[`renders with spacer 1`] = `
+<div class="header-container spacer">
+  <header class="header-bar">
+    <h1 class="header-title">Image gallery</h1>
+  </header>
+</div>
+`;

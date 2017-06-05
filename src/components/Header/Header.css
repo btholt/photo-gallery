@@ -1,0 +1,47 @@
+@import '../../common_styles/colors.css';
+
+.header-bar {
+  background-color: gray(95%);
+  color: gray(40%);
+  border-bottom: 2px solid gray(85%);
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 14%;
+
+  &.header-bar-inverse {
+    background-color: var(--nav-background);
+    color: var(--icon-color);
+    border-color: transparent;
+  }
+}
+
+.header-title {
+  font-size: 25px;
+}
+
+.header-container {
+  transition: opacity .5s ease;
+  opacity: 1;
+
+  &.spacer {
+    height: 12vh;
+  }
+
+  &.is-invisibile {
+    transition: opacity .5s ease;
+    opacity: 0;
+  }
+}
+
+.back-icon {
+  height: 18px;
+  position: absolute;
+  top: 5vh;
+  right: 5%;
+}

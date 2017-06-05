@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<section role="switch" tabIndex="0" class="photo-view">
+  <div class="header-container is-invisibile">
+    <header class="header-bar header-bar-inverse">
+      <h1 class="header-title"></h1>
+    </header>
+  </div>
+  <div class="photo-viewer"></div>
+  <nav class="navbar is-invisibile">
+    <img class="navbar-item" src="/assets/icons/plusOne.jpg" alt="give +1"
+    />
+    <img class="navbar-item" src="/assets/icons/comment.jpg" alt="comment"
+    />
+    <img class="navbar-item" src="/assets/icons/add.jpg" alt="add" />
+    <img class="navbar-item" src="/assets/icons/arrow.jpg" alt="share" />
+  </nav>
+</section>
+`;

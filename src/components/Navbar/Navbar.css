@@ -1,0 +1,23 @@
+@import '../../common_styles/colors.css';
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  background-color: var(--nav-background);
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+  transition: opacity .5s ease;
+
+  &.is-invisibile {
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+}
+
+.navbar-item {
+  width: 20px;
+}

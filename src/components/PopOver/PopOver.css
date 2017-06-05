@@ -1,0 +1,33 @@
+@import '../../common_styles/colors.css';
+
+.popover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 20, 20, 1);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  opacity: 0;
+  display: flex;
+  transition: opacity 1s ease;
+
+  &.is-visibile {
+    transition: opacity 1s ease;
+    opacity: 1;
+  }
+}
+
+.popover-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--info);
+  color: white;
+  min-width: 170px;
+  min-height: 100px;
+  border-radius: 5px;
+}

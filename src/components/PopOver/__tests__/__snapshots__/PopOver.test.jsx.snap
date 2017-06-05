@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with show 1`] = `
+<div class="popover is-visibile" role="dialog" aria-labelledby="dialogTitle">
+  <div class="popover-container">
+    <h2 class="popover-title" id="dialogTitle">Loading</h2>
+    <img class="popover-img" src="/assets/icons/loading.svg" alt="loading animation"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders without show 1`] = `
+<div class="popover" role="dialog" aria-labelledby="dialogTitle">
+  <div class="popover-container">
+    <h2 class="popover-title" id="dialogTitle">Loading</h2>
+    <img class="popover-img" src="/assets/icons/loading.svg" alt="loading animation"
+    />
+  </div>
+</div>
+`;

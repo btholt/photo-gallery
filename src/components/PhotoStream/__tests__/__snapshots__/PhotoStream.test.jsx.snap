@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div class="photo-stream">
+  <div class="header-container spacer">
+    <header class="header-bar">
+      <h1 class="header-title">Image gallery</h1>
+    </header>
+  </div>
+  <div class="photo-stream-photos">
+    <a class="stream-photo" href="/0">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/1">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/2">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/3">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/4">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/5">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/6">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/7">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/8">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/9">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/10">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/11">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/12">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/13">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/14">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/15">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/16">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/17">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/18">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+    <a class="stream-photo" href="/19">
+      <div aria-label="placeholder" role="img" class="stream-photo-img" style="background-image: url(/assets/placeholder_small.jpg);"></div>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<a class="stream-photo" href="/34266318003">
+  <div aria-label="stray dog" role="img" class="stream-photo-img" style="background-image: url(https://farm5.staticflickr.com/4253/34266318003_64c6326099_m.jpg);"></div>
+</a>
+`;

@@ -1,0 +1,5 @@
+:root {
+  @custom-media --breakpoint-s only screen and (width <= 480px);
+  @custom-media --breakpoint-m only screen and (width >= 481px) and (width <= 650px);
+  @custom-media --breakpoint-l only screen and (width >= 651px);
+}

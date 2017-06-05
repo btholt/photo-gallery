@@ -1,0 +1,6 @@
+flickr_credentials.json
+.DS_Store
+data/
+node_modules/
+styles.css
+bundle.js

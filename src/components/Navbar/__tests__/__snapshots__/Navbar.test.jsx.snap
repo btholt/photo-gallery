@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with visibile 1`] = `
+<nav class="navbar">
+  <img class="navbar-item" src="/assets/icons/plusOne.jpg" alt="give +1"
+  />
+  <img class="navbar-item" src="/assets/icons/comment.jpg" alt="comment"
+  />
+  <img class="navbar-item" src="/assets/icons/add.jpg" alt="add" />
+  <img class="navbar-item" src="/assets/icons/arrow.jpg" alt="share" />
+</nav>
+`;
+
+exports[`renders without visibile 1`] = `
+<nav class="navbar is-invisibile">
+  <img class="navbar-item" src="/assets/icons/plusOne.jpg" alt="give +1"
+  />
+  <img class="navbar-item" src="/assets/icons/comment.jpg" alt="comment"
+  />
+  <img class="navbar-item" src="/assets/icons/add.jpg" alt="add" />
+  <img class="navbar-item" src="/assets/icons/arrow.jpg" alt="share" />
+</nav>
+`;
