@@ -6,6 +6,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p",
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "dev:api": "cross-env NODE_ENV=development node index.js",
     "format": "prettier --write --single-quote --print-width=120 --parser=flow index.js webpack.config.js \"src/**/*.{js,jsx,css}\"",
     "lint": "eslint --fix -c ./.eslintrc.json src/**/*.{js,jsx} webpack.config.js index.js",
     "size-css": "node -e \"process.stdout.write('CSS gzip size: ')\" && gzip-size public/assets/styles.css",
